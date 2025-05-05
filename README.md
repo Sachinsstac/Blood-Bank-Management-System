@@ -27,7 +27,7 @@ Frontend: HTML, CSS, JavaScript
 
 Screenshots
 1. Home Page
-![Home Page](images/home_page.png)
+![Home Page](\assets\HMPG.png)
 
 
 A simple landing page introducing the system.
