@@ -5,16 +5,16 @@ Check the availability of different blood types.
 # Note: This system uses imaginary data and is not intended for real-life applications.
 
 Features
-Donation Form:
+**Donation Form:**
 Users can provide their details and select the blood type they want to donate.
 
-Request Form:
+**Request Form:**
 Users can request a specific blood type and check its availability in the system.
 
-Blood Availability Check:
+**Blood Availability Check:**
 View available blood types and their quantities (based on example data).
 
-Technologies Used
+**Technologies Used**
 Frontend: HTML, CSS, JavaScript
 
 | Blood Type | Units Available |
