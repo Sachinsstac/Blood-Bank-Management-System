@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blood Availability</title>
+  <link rel="stylesheet" href="bl.css">
+  <link rel="stylesheet" href="styleNAV.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+      <ul>
+          <li><a href="homepage.html">Home</a></li>
+          <li><a href="Donor Registration.html">Donor Registration</a></li>
+          <li><a href="Recipient Registration Page.html">Recipient Registration</a></li>
+          <li><a href="bl.html">Blood Availability</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </nav>
+  <header>
+    <h1>Lifesaver Blood Center</h1>
+    <p>Check blood availability below or find your blood group status.</p>
+  </header>
+  <main>
+    <section id="finder-section">
+      <h2>Find Your Blood Group</h2>
+      <input type="text" id="blood-group-input" placeholder="Enter your blood group (e.g., A+, B-, O+)">
+      <button id="find-button">Find</button>
+      <p id="result-message"></p>
+    </section>
+
+    <section id="blood-availability">
+      <h2>Blood Availability</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Blood Group</th>
+            <th>Available Units</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="blood-data">
+          <!-- Data will be dynamically inserted here -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 Lifesaver Blood Center</p>
+  </footer>
+  <script src="bl.js"></script>
+</body>
+</html>

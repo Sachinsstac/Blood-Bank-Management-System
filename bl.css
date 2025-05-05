@@ -1,0 +1,177 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f7f7f7;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Header Styling */
+  header {
+    background: linear-gradient(90deg, #c62828, #e53935);
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+  }
+  
+  header p {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  /* Finder Section */
+  #finder-section {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  #finder-section h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    color: #c62828;
+  }
+  
+  #blood-group-input {
+    padding: 12px;
+    width: 70%;
+    max-width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  #find-button {
+    padding: 12px 20px;
+    margin-left: 10px;
+    font-size: 1rem;
+    background: #c62828;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #find-button:hover {
+    background: #b71c1c;
+  }
+  
+  #result-message {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Blood Availability Section */
+  #blood-availability {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+  }
+  
+  #blood-availability h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #c62828;
+  }
+  
+  #blood-availability table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #blood-availability th,
+  #blood-availability td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #blood-availability th {
+    background: #e57373;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  #blood-availability td {
+    font-size: 1rem;
+  }
+  
+  #blood-availability tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  /* Status Colors */
+  .status-available {
+    color: #2e7d32;
+    font-weight: bold;
+  }
+  
+  .status-low {
+    color: #ff8f00;
+    font-weight: bold;
+  }
+  
+  .status-out {
+    color: #d32f2f;
+    font-weight: bold;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    background: #c62828;
+    color: #fff;
+    padding: 15px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 0.9rem;
+    }
+  
+    #finder-section {
+      padding: 15px;
+    }
+  
+    #blood-availability h2 {
+      font-size: 1.5rem;
+    }
+  
+    #blood-availability th,
+    #blood-availability td {
+      padding: 10px;
+    }
+  }
+  
