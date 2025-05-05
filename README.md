@@ -33,14 +33,18 @@ A simple landing page introducing the system.
 
 <hr>
 
-2. Donation Form
+**2. Donation Form**
 ![Donaation Form](assets/dr%20pg.png)
 Fill out the form to donate blood.
 
-3. Blood Availability Check
+<hr>
+
+**3. Blood Availability Check**
 ![Donaation Form](assets/availpg.png)
 Users can view the blood types and their availability.
 
+<hr>
+
 # Made with ❤️ by Sachin
-📧 Contact For feedback, suggestions, or queries, reach out at:
+📧 Contact For feedback, suggestions, or queries, reach out at: <br>
 📩 Email : sachin.962545@gmail.com
