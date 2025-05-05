@@ -1,5 +1,5 @@
 # Blood Bank Management System
-**A simple and intuitive blood bank management system designed for educational and demonstration purposes. This system allows users to:** <br>
+**A simple and intuitive blood bank management system designed for educational and demonstration purposes. This system allows users to:** <br><br>
 Fill a form to donate blood or request blood.
 
 Check the availability of different blood types.
