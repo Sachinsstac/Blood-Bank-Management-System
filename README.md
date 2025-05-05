@@ -24,8 +24,8 @@ Frontend: HTML, CSS, JavaScript
 | O+         | 15              |
 | AB-        | 5               |
 
-<hr>
-Screenshots
+<hr><br>
+# Screenshots
 1. Home Page
 ![Home Page](assets/HMPG.png)
 
