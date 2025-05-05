@@ -4,7 +4,7 @@ Fill a form to donate blood or request blood.
 Check the availability of different blood types.
 # Note: This system uses imaginary data and is not intended for real-life applications.
 
-# Features
+# # Features
 **Donation Form:**
 Users can provide their details and select the blood type they want to donate.
 
